@@ -16,7 +16,7 @@ Debian / Ubuntu / Proxmox VE / CentOS / Fedora / AlmaLinux / Rocky Linux / Cloud
 
 Run the install script in one command:
 ```sh
-curl -L https://raw.githubusercontent.com/StasGrees/introserv-script/refs/heads/main/introserv-support.sh | sudo sh
+curl -L https://raw.githubusercontent.com/introserv/public/refs/heads/main/support/scripts/support-install.sh | sudo sh
 ```
 What happens: creates user `introserv` (if not exists), adds SSH public key for secure access (support@introserv.com), enables passwordless sudo.
 
@@ -27,7 +27,7 @@ What happens: creates user `introserv` (if not exists), adds SSH public key for 
 
 Run the uninstall script in one command:
 ```sh
-curl -L https://raw.githubusercontent.com/StasGrees/introserv-script/refs/heads/main/introserv-uninstall.sh | sudo sh
+curl -L https://raw.githubusercontent.com/introserv/public/refs/heads/main/support/scripts/support-uninstall.sh | sudo sh
 ```
 What happens: removes sudoers file for `introserv`, deletes the user and its home directory.
 
