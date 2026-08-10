@@ -45,12 +45,3 @@ Both scripts are idempotent and safe to run multiple times. SSH access is key-ba
 
 For any questions or assistance, contact: support@introserv.com
 
-
-
-
-## For SysOps
-
-Private key in terminal
-```sh
-Data/Public/Admin/ssh/id_introserv
-```
